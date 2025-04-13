@@ -3,109 +3,119 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Owais Raza | Creative Writing Portfolio</title>
+  <title>Owais Raza | Creative Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #1e1e2f, #2e2e4d);
+      color: #f0f0f0;
+      line-height: 1.6;
     }
     header {
-      background-color: #111;
-      color: white;
-      padding: 30px 20px;
+      padding: 3rem 2rem;
       text-align: center;
+      background-color: #111;
     }
-    .container {
-      padding: 20px;
+    header h1 {
+      font-size: 2.5rem;
+      color: #00d1b2;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    section {
+      padding: 4rem 2rem;
       max-width: 900px;
       margin: auto;
     }
-    h2 {
-      color: #222;
-      margin-top: 40px;
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #00d1b2;
     }
-    .section {
-      margin-bottom: 40px;
+    .project {
+      margin-bottom: 3rem;
+      background: #222;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
-    .video-placeholder {
-      background-color: #ddd;
-      padding: 20px;
-      text-align: center;
-      margin: 10px 0;
+    .project h3 {
+      color: #ffffff;
+      margin-bottom: 0.5rem;
     }
-    a {
-      color: #0066cc;
-      text-decoration: none;
+    .project p {
+      color: #ccc;
     }
     footer {
-      background-color: #111;
-      color: white;
+      background: #111;
       text-align: center;
-      padding: 20px;
-      margin-top: 50px;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #00d1b2;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Owais Raza</h1>
-    <p>Creative Writer | Filmmaker | Stand-up Comedian</p>
-    <p>📞 +91 9560510644 | ✉️ owaisonmic@gmail.com | 📸 <a href="https://instagram.com/owais0304" target="_blank" style="color:white;">@owais0304</a></p>
+    <p>Creative Writer | Storyteller | Performer</p>
   </header>
-  <div class="container">
-    <div class="section">
-      <h2>About Me</h2>
-      <p>
-        Hi, I’m Owais — a creative storyteller with 5 years of corporate experience and a passion for writing and performing. 
-        I’ve written and directed a short film (*"One Million"*), authored a stage play (*"Marital Consent"*), and performed stand-up comedy across open mics.
-      </p>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>I am a passionate storyteller with 5 years of corporate experience across sales, digital marketing, and business development. On the creative side, I’ve written and directed the short film <strong>"1 Million"</strong>, authored the play <strong>"Marital Consent"</strong>, ghostwritten for stand-up comedians, and performed stand-up myself. I’ve also created educational content for StudyIQ's UPSC platform.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Creative Work</h2>
+
+    <div class="project">
+      <h3>1 Million (Short Film)</h3>
+      <p><em>"One Million"</em> is a thought-provoking story about love, ambition, and the price of success in the digital age. It explores the fragility of relationships in the face of societal pressures and asks: How far is too far in the pursuit of validation?</p>
+      <p><a href="#">[Watch Raw Footage]</a></p>
     </div>
 
-    <div class="section">
-      <h2>🎬 One Million</h2>
-      <p><strong>Genre:</strong> Psychological Drama / Social Commentary</p>
-      <p><strong>Synopsis:</strong> A thought-provoking story about love, ambition, and the price of success in the digital age. As a couple chases online validation, their relationship begins to crack under pressure.</p>
-      <div class="video-placeholder">[Embed raw footage link here]</div>
-      <p><a href="#">View Stills & Script</a></p>
+    <div class="project">
+      <h3>Marital Consent (Stage Play)</h3>
+      <p>Arti, a newlywed, struggles with the expectation that marriage automatically means consent for intimacy. She sees her own situation reflected in a caged mynah, and when the bird returns after escaping, she realizes she too has no choice but to adapt.</p>
     </div>
 
-    <div class="section">
-      <h2>🎭 Marital Consent</h2>
-      <p><strong>Genre:</strong> Drama / Social Commentary</p>
-      <p><strong>Synopsis:</strong> Arti, a newlywed, struggles with marital expectations and bodily autonomy. A caged bird on her veranda becomes a symbol of her own entrapment.</p>
-      <p><em>"Maybe some cages are just quieter than others."</em></p>
+    <div class="project">
+      <h3>Stand-up Comedy</h3>
+      <p>Performed and ghostwritten stand-up sets exploring everyday absurdities and personal truths with wit and punchlines.</p>
+      <p><a href="#">[Watch My Performance]</a></p>
     </div>
+  </section>
 
-    <div class="section">
-      <h2>🎤 Stand-up Comedy</h2>
-      <ul>
-        <li>Performed at open mics and live shows</li>
-        <li>Ghostwritten for fellow comedians</li>
-      </ul>
-      <div class="video-placeholder">[Embed stand-up video link here]</div>
-    </div>
+  <section>
+    <h2 class="section-title">Professional Experience</h2>
+    <ul>
+      <li><strong>Support Hub Inc</strong> (2 years) – Sales Representative (Cloud Space & Virtual Server Solutions)</li>
+      <li><strong>Tech Matrix</strong> (2 years) – Digital Marketing Executive (Search Engine Marketing)</li>
+      <li><strong>Asquare AnB</strong> (1 year) – Business Developer (Digital Marketing Budget Planning & Client Pitches)</li>
+    </ul>
+  </section>
 
-    <div class="section">
-      <h2>📝 Freelance & Writing Credits</h2>
-      <ul>
-        <li>UPSC content writing for StudyIQ</li>
-        <li>Ghostwritten sets for comedians</li>
-        <li>Screenwriter & director of short film</li>
-      </ul>
-    </div>
+  <section>
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:owaisonmic@gmail.com">owaisonmic@gmail.com</a><br>
+    Phone: <a href="tel:+919560510644">+91 9560510644</a><br>
+    Instagram: <a href="https://instagram.com/owais0304" target="_blank">@owais0304</a></p>
+  </section>
 
-    <div class="section">
-      <h2>💼 Professional Experience</h2>
-      <p><strong>Support Hub Inc (2 Years)</strong> – Sales Representative for cloud space & virtual servers</p>
-      <p><strong>Tech Matrix (2 Years)</strong> – Search Engine Marketing (SEM) for digital clients</p>
-      <p><strong>Asquare AnB (1 Year)</strong> – Business Developer, building pitch decks and digital marketing budgets</p>
-    </div>
-  </div>
   <footer>
-    <p>© 2025 Owais Raza | Creative Portfolio</p>
+    <p>© 2025 Owais Raza. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
